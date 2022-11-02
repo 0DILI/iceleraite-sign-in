@@ -1,0 +1,201 @@
+body {
+  background: url("assets/iceleraite\ Login\ BG.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+
+.logo {
+  padding-top: 1rem;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.content {
+  width: 35%;
+  /* margin-top: 20rem; */
+  color: white;
+  padding-top: 26rem;
+}
+
+.form {
+  background: rgba(225, 225, 225, 0.04);
+  box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(5px);
+  width: 400px;
+  padding: 30px 35px;
+  border-radius: 20px;
+}
+
+.field {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  background: white;
+  border-radius: 5px;
+}
+
+.field input {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #222;
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+.pass {
+  color: white;
+}
+
+.pass a {
+  color: #17a5f2;
+  text-decoration: none;
+}
+
+.pass:hover a {
+  text-decoration: underline;
+}
+
+input[type="submit"] {
+  background: linear-gradient(
+    263.37deg,
+    #17a5f2 2.79%,
+    rgba(21, 134, 224, 0.7) 184.84%
+  );
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+label {
+  color: white;
+  padding-top: 15px;
+}
+
+.login {
+  color: white;
+  font-size: 13px;
+}
+
+.passwords {
+  text-align: left;
+  color: white;
+  font-size: 13px;
+  /* padding-bottom: 5px; */
+}
+
+.form h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0 0 35px 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* .push {
+  margin-bottom: 20px;
+} */
+
+.pass {
+  text-align: left;
+  margin: 20px 0;
+  font-size: 13px;
+}
+
+.pass:hover a {
+  text-decoration: underline;
+}
+
+.signup {
+  color: white;
+  font-size: 13px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.signup a {
+  text-decoration: none;
+  color: #1c8bc8;
+}
+
+.signup:hover a {
+  text-decoration: underline;
+}
+
+.login {
+  color: white;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.purple {
+  color: #be40c0;
+  font-weight: 600;
+}
+
+.yellow {
+  color: #fba82b;
+  font-weight: 600;
+}
+
+.green {
+  color: #38d1bc;
+  font-weight: 600;
+}
+
+.bg-primary {
+  background: #505add;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.show {
+  position: absolute;
+  right: 13px;
+  top: 12px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #222;
+  cursor: pointer;
+  display: none;
+}
+
+.password:valid ~ .show {
+  display: block;
+}
+
+/* media */
+@media (max-width: 436px) {
+  .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 765px) {
+  .content {
+    display: none;
+    /* padding-top: 10rem; */
+  }
+
+  .form {
+    margin-top: 60px;
+    margin-left: 60px;
+  }
+}
